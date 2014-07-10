@@ -1,6 +1,6 @@
 {
   "name": "phant-output-statsd",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib/phant-output-statsd.js",
   "description": "statsd output for phant",
   "homepage": "https://github.com/sparkfun/phant-output-statsd",
