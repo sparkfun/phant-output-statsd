@@ -2,7 +2,7 @@
   "name": "phant-output-statsd",
   "version": "0.2.1",
   "main": "lib/phant-output-statsd.js",
-  "description": "statsd output for phant",
+  "description": "output to collect phant stream stats using statsd",
   "homepage": "https://github.com/sparkfun/phant-output-statsd",
   "bugs": "https://github.com/sparkfun/phant-output-statsd/issues",
   "author": {
@@ -36,5 +36,24 @@
     "jshint-stylish": "^0.1.5",
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt-jsbeautifier": "^0.2.7"
+  },
+  "phantConfig": {
+    "name": "Statsd",
+    "options": [
+      {
+        "label": "Host",
+        "name": "host",
+        "default": "localhost",
+        "type": "text",
+        "description": "IP or hostname of statsd server."
+      },
+      {
+        "label": "Port",
+        "name": "port",
+        "default": "8125",
+        "type": "number",
+        "description": "The port statsd is listening on."
+      }
+    ]
   }
 }
