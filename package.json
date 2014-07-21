@@ -1,6 +1,6 @@
 {
   "name": "phant-output-statsd",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "lib/phant-output-statsd.js",
   "description": "output to collect phant stream stats using statsd",
   "homepage": "https://github.com/sparkfun/phant-output-statsd",
